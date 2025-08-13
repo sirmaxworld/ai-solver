@@ -1,0 +1,51 @@
+{
+  "name": "@yourox/ai-solver",
+  "version": "1.0.0",
+  "description": "Dual-AI confidence-based problem solving system with 88%+ confidence threshold",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "ai-solve": "./dist/cli/solve.js",
+    "ai-consult": "./dist/cli/consult.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "tsx test/test-suite.ts",
+    "prepublishOnly": "npm run build && npm test",
+    "postinstall": "echo '🎉 Dual-AI Tools installed! Run ai-solve --help to get started'"
+  },
+  "keywords": [
+    "ai",
+    "problem-solving",
+    "gpt",
+    "claude",
+    "confidence-scoring",
+    "code-review",
+    "dual-ai",
+    "development-tools"
+  ],
+  "author": "Robert Gellert <robert@yourox.ai>",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.0.0",
+    "chalk": "^5.0.0",
+    "ora": "^6.0.0",
+    "commander": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sirmaxworld/ai-solver"
+  },
+  "homepage": "https://solver.to",
+  "bugs": {
+    "url": "https://github.com/sirmaxworld/ai-solver/issues"
+  }
+}

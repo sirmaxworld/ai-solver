@@ -1,0 +1,59 @@
+COMMERCIAL LICENSE AGREEMENT
+Dual AI Tools - Enterprise Edition
+
+This Commercial License Agreement ("Agreement") is entered into by and between:
+- Licensor: [Your Company Name] ("We", "Us", "Our")
+- Licensee: The purchasing entity ("You", "Your")
+
+1. GRANT OF LICENSE
+Subject to payment of applicable fees and compliance with this Agreement, we grant you a non-exclusive, non-transferable license to use Dual AI Tools in your proprietary software projects.
+
+2. PERMITTED USE
+- Internal business purposes
+- Integration into proprietary products
+- Modification without source disclosure
+- Distribution as part of your commercial offerings
+- Cloud/SaaS deployment
+
+3. RESTRICTIONS
+You may NOT:
+- Sublicense the software separately
+- Remove copyright notices
+- Use our trademarks without permission
+- Reverse engineer protected components
+- Share license keys
+
+4. SUPPORT & UPDATES
+Your license tier includes:
+- Startup: Email support (48hr response)
+- Enterprise: Priority support (4hr response)
+- OEM: Dedicated account manager
+- Updates as per your subscription level
+
+5. FEES
+Annual or monthly as per selected tier:
+- Startup: $299/month or $2,999/year
+- Enterprise: $2,999/month or $29,999/year  
+- OEM: Custom pricing
+
+6. WARRANTY
+SOFTWARE PROVIDED "AS IS" WITH NO WARRANTY, EXPRESS OR IMPLIED.
+Enterprise tier includes SLA guarantees as separately documented.
+
+7. LIABILITY LIMITATION
+Maximum liability limited to fees paid in prior 12 months.
+
+8. CONFIDENTIALITY
+Both parties agree to maintain confidentiality of proprietary information.
+
+9. TERMINATION
+- Either party may terminate with 30 days notice
+- Immediate termination for material breach
+- Post-termination: cease use, destroy copies
+
+10. GOVERNING LAW
+This Agreement governed by laws of [Your State/Country].
+
+By purchasing a commercial license, you acknowledge reading and agreeing to these terms.
+
+For questions: license@your-domain.com
