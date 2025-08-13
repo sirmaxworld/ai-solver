@@ -3,7 +3,7 @@
 ## 💡 Our Philosophy
 We believe AI-powered development tools should be accessible to everyone. Our pricing is designed to be fair and grow with your success.
 
-## 🎯 Pricing Tiers (70% More Affordable!)
+## 🎯 Pricing Tiers (Ultra-Affordable!)
 
 ### 🆓 Community Edition (AGPL-3.0)
 - **Price**: FREE forever
@@ -13,31 +13,34 @@ We believe AI-powered development tools should be accessible to everyone. Our pr
 - **Requirement**: Your code must be open source (AGPL)
 
 ### 🚀 Indie Developer License
-- **Price**: $89/month or $890/year (save 17%)
+- **Price**: $29.99/month or $299/year (save 17%)
 - **For**: Individual developers, freelancers
 - **Includes**:
   - Use in proprietary projects
   - Keep your code private
   - Email support (48hr response)
   - All core features
-  - Up to 1,000 API calls/month
+  - ~400,000 tokens/month
+  - ~66 AI solves/month
 
 ### 🏢 Startup License  
-- **Price**: $299/month or $2,990/year (save 17%)
+- **Price**: $59.99/month or $599/year (save 17%)
 - **For**: Companies <10 employees or <$500K ARR
 - **Includes**:
   - Everything in Indie
   - Priority email support (24hr response)
-  - 10,000 API calls/month
+  - ~800,000 tokens/month
+  - ~133 AI solves/month
   - Team sharing (up to 5 seats)
   - Slack integration
 
 ### 🏛️ Enterprise License
-- **Price**: $899/month or $8,990/year (save 17%)
+- **Price**: $101/month or $1,010/year (save 17%)
 - **For**: Larger companies
 - **Includes**:
   - Everything in Startup
-  - Unlimited API calls
+  - ~1,350,000 tokens/month
+  - ~225 AI solves/month
   - Priority support (4hr response)
   - Unlimited team seats
   - SSO/SAML integration
@@ -47,13 +50,33 @@ We believe AI-powered development tools should be accessible to everyone. Our pr
   - On-premise deployment option
 
 ### 🤝 OEM/Reseller License
-- **Price**: Starting at $2,999/year
+- **Price**: Starting at $999/year
 - **For**: Companies embedding AI Solver in their products
 - **Includes**:
   - White-labeling options
   - Redistribution rights
   - Dedicated account manager
   - Custom terms available
+
+## 💰 Token Economics & Value
+
+### What You Get Per Tier (with 25% margin for sustainability)
+
+| Plan | Price | Tokens/Month | AI Solves | Cost per Solve |
+|------|-------|--------------|-----------|----------------|
+| Indie | $29.99 | ~400K | ~66 | $0.45 |
+| Startup | $59.99 | ~800K | ~133 | $0.45 |
+| Enterprise | $101 | ~1.35M | ~225 | $0.45 |
+
+*Each AI solve uses ~6,000 tokens (dual-AI validation with Claude + GPT)*
+
+### Token Calculation Breakdown
+- **Indie ($29.99)**: $23.99 for API costs after 25% margin
+  - Claude-3.5: 4M input tokens @ $3/M + 800K output @ $15/M = $24
+- **Startup ($59.99)**: $47.99 for API costs
+  - Claude-3.5: 8M input tokens + 1.6M output = $48
+- **Enterprise ($101)**: $80.80 for API costs
+  - Claude-3.5: 13M input tokens + 2.7M output = $81
 
 ## 💰 Special Offers
 
@@ -73,9 +96,9 @@ We believe AI-powered development tools should be accessible to everyone. Our pr
 
 | Your Time Saved | Monthly Value | Our Price | Your ROI |
 |-----------------|---------------|-----------|----------|
-| 2 hours/month | ~$200 | $89 | 124% |
-| 5 hours/month | ~$500 | $299 | 67% |
-| 20 hours/month | ~$2,000 | $899 | 122% |
+| 30 min/month | ~$50 | $29.99 | 67% |
+| 1 hour/month | ~$100 | $59.99 | 67% |
+| 2 hours/month | ~$200 | $101 | 98% |
 
 *Based on $100/hour developer rate*
 
@@ -84,8 +107,8 @@ We believe AI-powered development tools should be accessible to everyone. Our pr
 ### Can I switch plans?
 Yes! Upgrade or downgrade anytime. Changes take effect on your next billing cycle.
 
-### What happens if I exceed API limits?
-We'll notify you at 80% usage. You can upgrade or purchase additional credits ($10 per 1,000 calls).
+### What happens if I exceed token limits?
+We'll notify you at 80% usage. You can upgrade or purchase additional tokens ($0.10 per 1K tokens).
 
 ### Is there a free trial?
 Yes! 14-day free trial for all paid tiers. No credit card required.
@@ -95,6 +118,9 @@ Yes, with Enterprise license. We provide Docker images and Kubernetes helm chart
 
 ### What about data privacy?
 Your code never leaves your machine. We only process the problem descriptions, not your actual codebase.
+
+### Do unused tokens roll over?
+No, tokens reset each billing period to keep pricing simple and fair.
 
 ## 🎁 Volume Discounts
 
@@ -127,9 +153,9 @@ Your code never leaves your machine. We only process the problem descriptions, n
 
 ## Why Our Pricing Works
 
-1. **Accessible to individuals**: $89/month is less than a gym membership
+1. **Accessible to individuals**: $29.99/month is less than most streaming services
 2. **Scales with success**: Larger teams pay more but get more value
 3. **Open source friendly**: Free forever for open source projects
-4. **Fair API limits**: Based on actual usage, not arbitrary restrictions
+4. **Transparent token limits**: Based on actual API costs with fair 25% margin
 
 Ready to 10x your problem-solving speed? [Start your free trial](https://solver.to/signup) →
