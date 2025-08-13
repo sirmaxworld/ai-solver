@@ -1,8 +1,8 @@
 # Cursor Rules - AI Memory System
 # Project: @yourox/ai-solver
 # Type: general
-# Generated: 2025-08-13T21:37:26.024Z
-# Memories Used: 15
+# Generated: 2025-08-13T21:57:57.313Z
+# Memories Used: 16
 
 ## Project Context
 You are working on a general project using openai, chalk, ora, commander.
@@ -12,6 +12,7 @@ You are working on a general project using openai, chalk, ora, commander.
 • Implement proper error handling with try-catch blocks
 • Always use environment variables for API keys, never hardcode them
 • Use Prisma ORM for type-safe database operations
+• Define TypeScript interfaces and types for better type safety
 • Use Zod for runtime type validation and schema definition
 • Cherry-picked Nextacular features for multi-tenant: workspace management, team invitations, Stripe billing integration. Option 2 approach as chosen by user.
 • Multi-tenant services extracted from Nextacular are located in src/lib/multi-tenant/services with workspace.ts, billing.ts, and team.ts
