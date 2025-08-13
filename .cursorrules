@@ -1,0 +1,73 @@
+# Cursor Rules - AI Memory System
+# Project: @yourox/ai-solver
+# Type: general
+# Generated: 2025-08-13T21:37:26.024Z
+# Memories Used: 15
+
+## Project Context
+You are working on a general project using openai, chalk, ora, commander.
+
+## Learned Patterns & Best Practices
+• Always use TypeScript for new projects
+• Implement proper error handling with try-catch blocks
+• Always use environment variables for API keys, never hardcode them
+• Use Prisma ORM for type-safe database operations
+• Use Zod for runtime type validation and schema definition
+• Cherry-picked Nextacular features for multi-tenant: workspace management, team invitations, Stripe billing integration. Option 2 approach as chosen by user.
+• Multi-tenant services extracted from Nextacular are located in src/lib/multi-tenant/services with workspace.ts, billing.ts, and team.ts
+• This is the rush2.ai automation platform project, NOT vite-react-typescript-starter. Always use port 3001 for Next.js to avoid conflicts.
+• Use Nextacular as the multi-tenant SaaS layer for rush2.ai, as specified in the PRD. Architecture: Multi-Tenant SaaS Layer (Nextacular) + Automation Engine (ActivePieces)
+• ActivePieces is running on port 8080 for workflow automation. Redis on port 6381. Always test with Playwright before claiming features work.
+• Integrate Stripe for payment processing
+• Rush2.ai main app runs on port 3001. ActivePieces runs on port 8080. Always use npm run dev to start the main app.
+• Use NextAuth.js with Prisma adapter for authentication
+• ActivePieces is running on port 8080 with standalone PostgreSQL on port 5434. Use docker-compose.activepieces-standalone.yml for management.
+• Railway Database: Host=switchyard.proxy.rlwy.net Port=13969 DB=railway User=postgres. This is the production database for rush2.ai.
+
+## Critical Rules (High Importance)
+⚡ [PREFERENCE] Always use TypeScript for new projects
+⚡ [ARCHITECTURE] Use Prisma ORM for type-safe database operations
+⚡ [VALIDATION] Use Zod for runtime type validation and schema definition
+⚡ [AUTHENTICATION] Use NextAuth.js with Prisma adapter for authentication
+⚡ [PAYMENTS] Integrate Stripe for payment processing
+⚡ [ERROR_HANDLING] Implement proper error handling with try-catch blocks
+⚡ [ARCHITECTURE] Use Nextacular as the multi-tenant SaaS layer for rush2.ai, as specified in the PRD. Architecture: Multi-Tenant SaaS Layer (Nextacular) + Automation Engine (ActivePieces)
+⚡ [INFRASTRUCTURE] ActivePieces is running on port 8080 for workflow automation. Redis on port 6381. Always test with Playwright before claiming features work.
+⚡ [ARCHITECTURE] Multi-tenant services extracted from Nextacular are located in src/lib/multi-tenant/services with workspace.ts, billing.ts, and team.ts
+⚡ [ARCHITECTURE] Cherry-picked Nextacular features for multi-tenant: workspace management, team invitations, Stripe billing integration. Option 2 approach as chosen by user.
+
+## Code Style Guidelines
+• Prefer functional and declarative programming patterns
+• Use TypeScript for better type safety when possible
+• Write self-documenting code with clear variable names
+• Add error handling and edge case management
+• Include comments for complex logic
+
+## Architecture Principles
+• Keep functions and components small and focused
+• Separate concerns (business logic, UI, data)
+• Use dependency injection for testability
+• Follow SOLID principles where applicable
+• Implement proper error boundaries
+
+## Testing & Quality
+• Write tests for critical business logic
+• Use meaningful test descriptions
+• Mock external dependencies
+• Aim for high code coverage on important paths
+
+## Performance Considerations
+• Optimize for readability first, performance second
+• Use lazy loading and code splitting where beneficial
+• Implement proper caching strategies
+• Monitor bundle sizes
+
+## AI Assistant Instructions
+• Apply these learned patterns consistently
+• Suggest improvements based on these memories
+• Flag violations of important rules
+• Adapt suggestions to the project type (general)
+
+---
+💡 To add new memories: cursor-memory remember "your pattern or preference"
+🔄 To refresh: cursor-memory sync
