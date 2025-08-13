@@ -46,6 +46,8 @@ graph LR
 - **88% Threshold**: Only high-confidence solutions are recommended
 - **5 Iteration Max**: Systematic search without infinite loops
 - **Category Support**: Optimized for CSS, React, Performance, Architecture, and Algorithm problems
+- **10+ AI Models**: Choose from Claude, GPT-4, Gemini, Llama, DeepSeek, and more
+- **Smart Model Routing**: Automatically selects the best model for your task type
 
 ## 💻 CLI Usage
 
@@ -126,11 +128,17 @@ Our test suite shows impressive results across different problem categories:
 
 ## 🔑 Configuration
 
+### API Keys
+
 Set your API keys as environment variables:
 
 ```bash
 export OPENAI_API_KEY="sk-..."
 export ANTHROPIC_API_KEY="sk-ant-..."
+# Optional providers
+export GOOGLE_API_KEY="..."
+export MISTRAL_API_KEY="..."
+export GROQ_API_KEY="..."
 ```
 
 Or create `.env` file:
@@ -138,7 +146,32 @@ Or create `.env` file:
 ```env
 OPENAI_API_KEY=sk-...
 ANTHROPIC_API_KEY=sk-ant-...
+GOOGLE_API_KEY=...
+MISTRAL_API_KEY=...
 ```
+
+### Model Selection
+
+Configure your preferred models:
+
+```bash
+# Use specific models
+ai-solve "Fix bug" --primary claude-3.5-sonnet --secondary gpt-4o-mini
+
+# Use presets
+ai-solve "Optimize code" --preset performance  # Uses Claude + GPT-4o
+ai-solve "Quick fix" --preset speed            # Uses Haiku + GPT-4o-mini
+ai-solve "Complex problem" --preset accuracy   # Uses Claude + Gemini Pro
+```
+
+Available models include:
+- **Claude**: 3.5 Sonnet, 3 Opus, 3 Haiku
+- **OpenAI**: GPT-4o, GPT-4o-mini, GPT-4-Turbo
+- **Google**: Gemini 1.5 Pro, Gemini 1.5 Flash
+- **Meta**: Llama 3.1 (70B, 405B)
+- **Others**: DeepSeek, Mixtral, Command R+, Qwen
+
+See [MODELS.md](MODELS.md) for complete model comparison and pricing.
 
 ## 🏗️ Architecture
 
